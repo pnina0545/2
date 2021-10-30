@@ -1,6 +1,10 @@
 img { width:600px ; height:400px;}
- body {
-  background-image: url("רקע 2.jpg") ; background-position: right top;
+html { 
+  background: url("רקע 2.jpg") no-repeat center fixed; 
+  background-size: cover;
+}
+
+ body { background-position: right top;
   background-attachment: fixed;
 }
 
